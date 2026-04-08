@@ -10,10 +10,26 @@ A custom integration for [Home Assistant](https://www.home-assistant.io/) that e
 
 ## Installation
 
-### Manual
+### Manual Installation
 
-1. Copy the contents of this repository into your Home Assistant `custom_components/custom_calendar_events/` directory.
-2. Restart Home Assistant.
+1. Download this repository as a ZIP file (click **Code → Download ZIP** at the top of this page).
+2. Extract the ZIP and copy the `custom_calendar_events` folder into your Home Assistant
+   `config/custom_components/` directory. The result should look like this:
+   ```
+   config/
+   └── custom_components/
+       └── custom_calendar_events/
+           ├── __init__.py
+           ├── manifest.json
+           ├── const.py
+           ├── services.yaml
+           └── icons.json
+   ```
+3. Add the following line to your `configuration.yaml`:
+   ```yaml
+   custom_calendar_events:
+   ```
+4. Restart Home Assistant.
 
 ### HACS (coming soon)
 
