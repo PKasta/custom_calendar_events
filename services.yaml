@@ -1,0 +1,66 @@
+get_events:
+  target:
+    entity:
+      domain: calendar
+  fields:
+    calendar_id:
+      required: true
+      selector:
+        entity:
+          domain: calendar
+    start_date_time:
+      example: "2022-03-22 20:00:00"
+      selector:
+        datetime:
+    end_date_time:
+      example: "2022-03-22 22:00:00"
+      selector:
+        datetime:
+    duration:
+      selector:
+        duration:
+
+delete_event:
+  name: Delete Event
+  description: Löscht ein Ereignis aus dem Kalender.
+  fields:
+    
+    calendar_id:
+      required: true
+      selector:
+        entity:
+          domain: calendar
+    event_id:
+      required: true
+      example: "event_uid_xyz"
+      selector:
+        text:
+    recurrence_id:
+      required: false
+      selector:
+        text:
+    recurrence_range:
+      required: false
+      selector:
+        select:
+          options:
+            - THIS
+            - THIS_AND_FUTURE
+
+delete_events_in_range:
+  name: Delete Events in Range
+  description: Löscht alle Ereignisse innerhalb eines Zeitraums aus dem Kalender.
+  fields:
+    calendar_id:
+      required: true
+      selector:
+        entity:
+          domain: calendar
+    start_date:
+      required: true
+      selector:
+        datetime:
+    end_date:
+      required: true
+      selector:
+        datetime:

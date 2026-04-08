@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"C:\\\\Users\\\\fifi4\\\\Desktop\\\\Projekty\\\\Github\\\\custom_calendar_events\\\\calendar_entity.py\")",
+      "Read(//mnt/c/Users/fifi4/Desktop/Projekty/**)",
+      "Read(//c/Users/fifi4/Desktop/Projekty/Github/**)"
+    ]
+  }
+}

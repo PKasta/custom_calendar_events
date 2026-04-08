@@ -1,0 +1,9 @@
+{
+  "domain": "custom_calendar_events",
+  "name": "Custom Calendar Events",
+  "version": "1.0.0",
+  "documentation": "https://github.com/PKasta/custom_calendar_events",
+  "requirements": [],
+  "dependencies": ["calendar"],
+  "codeowners": ["PKasta"]
+}
