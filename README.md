@@ -8,6 +8,8 @@ A custom integration for [Home Assistant](https://www.home-assistant.io/) that e
 - **Delete a single event** - remove an event by ID, with support for recurring events
 - **Delete events in a date range** - bulk-delete all events within a given period
 
+![Custom Calendar Events](screenshots/events.png)
+
 ## Installation
 
 ### Manual Installation
