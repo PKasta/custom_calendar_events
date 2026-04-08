@@ -4,9 +4,9 @@ A custom integration for [Home Assistant](https://www.home-assistant.io/) that e
 
 ## Features
 
-- **Get events** — query events from any calendar within a specified time window
-- **Delete a single event** — remove an event by ID, with support for recurring events
-- **Delete events in a date range** — bulk-delete all events within a given period
+- **Get events** - query events from any calendar within a specified time window
+- **Delete a single event** - remove an event by ID, with support for recurring events
+- **Delete events in a date range** - bulk-delete all events within a given period
 
 ## Installation
 
@@ -30,10 +30,6 @@ A custom integration for [Home Assistant](https://www.home-assistant.io/) that e
    custom_calendar_events:
    ```
 4. Restart Home Assistant.
-
-### HACS (coming soon)
-
-Support for [HACS](https://hacs.xyz/) installation is planned.
 
 ## Services
 
@@ -86,6 +82,12 @@ Returns the number of successfully deleted events.
 - Home Assistant with the `calendar` component enabled
 - The target calendar must support the `DELETE_EVENT` feature
 
+## Credits
+
+Created by [PKasta](https://github.com/PKasta)
+
+Inspired by GitHub contribution graph.
+
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE) file for details
